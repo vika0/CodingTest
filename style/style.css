@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2018, 5:17:40 PM
+    Author     : vika
+*/
+body {
+    margin: 0;
+    background-color: #f0eef2;
+    min-width: 480px; 
+}
+
+header h2{
+    text-align: center;
+}
+
+.content-part{
+    margin: 20px 100px;
+    overflow: hidden;
+}
+
+.add-category{
+    width: 100%;
+}
+.add-category figure{
+    text-align: center;
+    margin: 10px auto;
+    background: white;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+}
+
+.add-category figure form .input-categroy p, .add-category figure form .input-categroy input[type="text"]{
+    display: inline-block;
+}
+
+.add-category figure form p{
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.add-category figure form input[type="text"]{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.add-category figure form input[type="submit"],
+.add-category figure form input[type="button"]{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+    width: auto;
+    height: 25px;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.add-category figure form input[type="submit"]{
+    background-color: #c7c7c7;
+}
+.add-category figure form input[type="button"]{
+    margin-left: 10px;
+}
+
+.categories-list{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.categories-list .categories-space{
+    width: 10%;
+}
+
+.categories-list .categories-recursive, .categories-list .categories-iterative{
+    width: 45%;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    min-height: 150px;
+}
+.input_fields_wrap_sec{
+    margin-left: 150px;
+}
+.level-1 {
+  padding-left: 6em;
+}
+
+.level-2, .level-3, .level-4, .level-5, .level-6, .level-7, .level-8 {
+  padding-left: 2em;
+}
