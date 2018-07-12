@@ -2,7 +2,7 @@
 
 Simple page without style or script frameworks.
 
-Excercise is printing a categories tree to the page (unlimited hierarchy) in two ways:
+Exercise is printing a categories tree to the page (unlimited hierarchy) in two ways:
   - recursive;
   - iterative;  
 	
